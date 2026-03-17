@@ -3,7 +3,7 @@ cask "streams" do
   name "streams"
   desc "AI-powered software development pipeline orchestrator"
   homepage "https://github.com/z-morgan/streams"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "streams" do
   on_macos do
     on_intel do
       url "https://github.com/z-morgan/streams/releases/download/v#{version}/streams_#{version}_darwin_amd64.tar.gz"
-      sha256 "521524fd3157007a72d2bf842d9da1328fae0823d3d99b1fc0fc3c2060617284"
+      sha256 "8c37ec234649502e5d851eac64186d86f507273a488d8aa34386cecf2e43efca"
     end
     on_arm do
       url "https://github.com/z-morgan/streams/releases/download/v#{version}/streams_#{version}_darwin_arm64.tar.gz"
-      sha256 "e5e245fc0e1a70b0d17802e2351a3464690047104e02a9081aba4aca475535a0"
+      sha256 "30f4accac0313a6109f6349e5ed37cff96273aa5b63dac4b9bb74f0189201258"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/z-morgan/streams/releases/download/v#{version}/streams_#{version}_linux_amd64.tar.gz"
-      sha256 "ada3fc5245af84981071410bc1fdbd187e7fea1aee5063da2dfd0f65996356bf"
+      sha256 "19daa53f5cc592d410cfe89b379eaf54e8eb59c3f3d645cd3b4d2a6f1098958c"
     end
     on_arm do
       url "https://github.com/z-morgan/streams/releases/download/v#{version}/streams_#{version}_linux_arm64.tar.gz"
-      sha256 "870ff262710f3a0ce1c03059c8914dd9a68020e2b1c4807db57ccf6dfb4b69df"
+      sha256 "e65d1f6d35acebe0fba590e6b3cc80abb0028c56cd372b3c5e9c17e57aa15997"
     end
   end
 
